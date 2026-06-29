@@ -41,5 +41,22 @@ text-decoration:nome;
 
 h1{
 color:white;
-font-size: 24 pxc;
+font-size: 24px;
+}
+
+footer{
+background-color: blueviolet;
+padding: 15px 25px ;
+color: crimson;
+}
+
+.cartao-interno{
+ position:relative;
+}
+
+.cartao-frente , .cartao-verso{
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px purple;
+    backface-visibility: ;
 }
